@@ -143,7 +143,7 @@ Implementation: Use the CustomGridViewWithShadow and GridItemWidget widgets with
 
 ## Code Output
 
-<img src="https://raw.githubusercontent.com/Priyankshah1024/Grid_Item_Animation/main/Grid_Item_Animation/grid_preview.jpg" alt="GridView Item Animation" width="500px" height="500px"/>
+<img src="https://raw.githubusercontent.com/Priyankshah1024/Grid_Item_Animation/main/Grid_Item_Animation/grid_preview.jpg" alt="GridView Item Animation" width="350px" height="550px"/>
 </td>
 </tr>
 </table>    
