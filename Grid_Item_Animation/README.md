@@ -36,6 +36,9 @@ Implementation: Use the CustomGridViewWithShadow and GridItemWidget widgets with
 
 <table>
 <tr>
+
+## Code
+
 <td>
 
     class CustomGridViewWithShadow extends StatelessWidget {
@@ -133,10 +136,13 @@ Implementation: Use the CustomGridViewWithShadow and GridItemWidget widgets with
 </td>
 </tr>
 
-## Code Output
+
 <tr>
+
+## Code Output
+
 <td>
-<img src="https://raw.githubusercontent.com/Priyankshah1024/Grid_Item_Animation/main/grid_preview.jpg" alt="GridView Item Animation"/>
+<img src="https://raw.githubusercontent.com/Priyankshah1024/Grid_Item_Animation/main/grid_preview.jpg" alt="GridView Item Animation" width="50%" height="50%"/>
 </td>
 </tr>
 </table>    
