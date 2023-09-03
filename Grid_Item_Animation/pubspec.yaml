@@ -1,6 +1,6 @@
 name: grid_item_animation
 description: The grid_item_animation package. These widgets are designed to create a grid view with interactive tap animations and shadow effects.
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/Priyankshah1024/Grid_Item_Animation
 
 environment:

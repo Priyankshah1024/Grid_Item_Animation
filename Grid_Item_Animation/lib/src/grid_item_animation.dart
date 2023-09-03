@@ -27,7 +27,6 @@ class CustomGridViewWithShadow extends StatelessWidget {
   }
 }
 
-
 class GridItemWidget extends StatefulWidget {
   const GridItemWidget({super.key});
 
@@ -49,14 +48,15 @@ class GridItemWidgetState extends State<GridItemWidget> {
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 300),
         margin: const EdgeInsets.all(4),
-        transform: isTapped
-            ? Matrix4.translationValues(0, -5, 0)
-            : Matrix4.identity(),
+        transform:
+            isTapped ? Matrix4.translationValues(0, -5, 0) : Matrix4.identity(),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
-              color: isTapped ? Colors.blue.withOpacity(0.5) : Colors.grey.withOpacity(0.5),
+              color: isTapped
+                  ? Colors.blue.withOpacity(0.5)
+                  : Colors.grey.withOpacity(0.5),
               spreadRadius: isTapped ? 4 : 2,
               blurRadius: isTapped ? 8 : 4,
               offset: Offset(0, isTapped ? 4 : 2),
@@ -64,10 +64,10 @@ class GridItemWidgetState extends State<GridItemWidget> {
           ],
           gradient: isTapped
               ? const LinearGradient(
-            colors: [Colors.blueGrey, Colors.lightBlueAccent],
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-          )
+                  colors: [Colors.blueGrey, Colors.lightBlueAccent],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                )
               : null,
           color: !isTapped ? Colors.white : null,
         ),
@@ -82,7 +82,8 @@ class GridItemWidgetState extends State<GridItemWidget> {
               letterSpacing: isTapped ? 1.2 : 0,
             ),
             child: const Text(
-              'Click Me!', style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),
+              'Click Me!',
+              style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),
             ),
           ),
         ),
