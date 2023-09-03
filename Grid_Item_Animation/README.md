@@ -11,9 +11,6 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
 ## Features
 
 Customizable Grid View: CustomGridViewWithShadow creates a grid view with a fixed number of columns and customizable cross-axis and main-axis spacing.
@@ -22,10 +19,6 @@ Interactive Tap Animation: GridItemWidget is a grid item widget that animates wh
 
 Shadow Effects: The grid item includes a shadow effect that changes when tapped, providing an interactive and visually appealing experience.
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
@@ -138,6 +131,8 @@ Implementation: Use the CustomGridViewWithShadow and GridItemWidget widgets with
     }    
 
 </td>
+<td>
+<img src="https://raw.githubusercontent.com/Priyankshah1024/Grid_Item_Animation/main/grid_preview.jpg" alt="GridView Item Animation"/>
+</td>
 </tr>
-<img src=""/>
 </table>    
