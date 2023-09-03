@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class CustomGridViewWithShadow extends StatelessWidget {
-  CustomGridViewWithShadow({super.key});
+  const CustomGridViewWithShadow({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,16 +10,16 @@ class CustomGridViewWithShadow extends StatelessWidget {
         title: const Text('Custom GridView'),
       ),
       body: Container(
-        padding: EdgeInsets.all(10),
+        padding: const EdgeInsets.all(10),
         child: GridView.builder(
-          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             crossAxisSpacing: 16,
             mainAxisSpacing: 16,
           ),
           itemCount: 10,
           itemBuilder: (BuildContext context, int index) {
-            return GridItemWidget();
+            return const GridItemWidget();
           },
         ),
       ),
@@ -29,7 +29,7 @@ class CustomGridViewWithShadow extends StatelessWidget {
 
 
 class GridItemWidget extends StatefulWidget {
-  GridItemWidget({super.key});
+  const GridItemWidget({super.key});
 
   @override
   _GridItemWidgetState createState() => _GridItemWidgetState();
@@ -47,8 +47,8 @@ class _GridItemWidgetState extends State<GridItemWidget> {
         });
       },
       child: AnimatedContainer(
-        duration: Duration(milliseconds: 300),
-        margin: EdgeInsets.all(4),
+        duration: const Duration(milliseconds: 300),
+        margin: const EdgeInsets.all(4),
         transform: isTapped
             ? Matrix4.translationValues(0, -5, 0)
             : Matrix4.identity(),
@@ -63,7 +63,7 @@ class _GridItemWidgetState extends State<GridItemWidget> {
             ),
           ],
           gradient: isTapped
-              ? LinearGradient(
+              ? const LinearGradient(
             colors: [Colors.blueGrey, Colors.lightBlueAccent],
             begin: Alignment.topLeft,
             end: Alignment.bottomRight,
@@ -73,7 +73,7 @@ class _GridItemWidgetState extends State<GridItemWidget> {
         ),
         child: Center(
           child: AnimatedDefaultTextStyle(
-            duration: Duration(milliseconds: 300),
+            duration: const Duration(milliseconds: 300),
             style: TextStyle(
               fontSize: isTapped ? 25 : 21,
               color: isTapped ? Colors.white : Colors.black,
@@ -81,7 +81,7 @@ class _GridItemWidgetState extends State<GridItemWidget> {
               fontStyle: isTapped ? FontStyle.italic : FontStyle.normal,
               letterSpacing: isTapped ? 1.2 : 0,
             ),
-            child: Text(
+            child: const Text(
               'Click Me!', style: TextStyle(fontSize: 21, fontWeight: FontWeight.w600),
             ),
           ),
