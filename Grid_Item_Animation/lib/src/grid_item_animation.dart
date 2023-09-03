@@ -32,10 +32,10 @@ class GridItemWidget extends StatefulWidget {
   const GridItemWidget({super.key});
 
   @override
-  _GridItemWidgetState createState() => _GridItemWidgetState();
+  GridItemWidgetState createState() => GridItemWidgetState();
 }
 
-class _GridItemWidgetState extends State<GridItemWidget> {
+class GridItemWidgetState extends State<GridItemWidget> {
   bool isTapped = false;
 
   @override
