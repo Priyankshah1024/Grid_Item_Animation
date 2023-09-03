@@ -135,10 +135,7 @@ Implementation: Use the CustomGridViewWithShadow and GridItemWidget widgets with
 
 </td>
 </tr>
-
-
 <tr>
-
 <td>
 
 ## Code Output
