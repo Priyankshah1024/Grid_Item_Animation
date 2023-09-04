@@ -1,5 +1,4 @@
-[![MasterHead](https://media.tenor.com/FdkbSvSxI9MAAAAC/chilled-lamb-mienar.gif)](https://shahpriyank.netlify.app)
-
+[![MasterHead](https://bit.ly/45Rcznf)](https://shahpriyank.netlify.app)
 
 <h1 align="center">Hi 👋, I'm Priyank Shah</h1>
 <h3 align="center">A passionate Flutter Developer from India</h3>
